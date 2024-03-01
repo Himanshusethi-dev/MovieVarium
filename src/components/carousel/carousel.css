@@ -1,0 +1,99 @@
+.carouselMain {
+    display: flex;
+    overflow: hidden;
+    margin-top: 60px;
+    gap: 27px;
+    padding-bottom: 30px;
+}
+
+.itemCard {
+    width: 18%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 19px;
+    font-weight: 500;
+    flex-direction: column;
+    flex: 0 0 18%;
+}
+.itemCardTop {
+    position: relative;
+    min-height: 324px;
+}
+
+.carouselSection {
+    color: white;
+    min-height: 400px;
+    background: radial-gradient(circle, rgba(53,8,9,1) 40%, rgba(154,0,3,1) 93%, rgba(116,78,78,1) 100%);
+    
+}
+
+.carouselSection .caraouselArea {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    font-weight: 500;
+}
+
+.itemCard .lazy-load-image-background.blur.lazy-load-image-loaded{
+
+    max-height: 324px;
+    width: 100%;
+}
+
+.itemCard  .lazy-load-image-background.blur.lazy-load-image-loaded > img{
+
+    border-radius: 8px;
+}
+
+.itemPoster {
+    margin-bottom: 20px;
+}
+.itemTitle {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.carouselSection .contentWrapper{
+    position: relative;
+}
+.carouselArrow{
+    position: absolute;
+    top: 35%;
+    z-index: 5;
+    font-size: 27px;
+    cursor: pointer;
+}
+.carouselArrow.left {
+    left: 30px;
+}
+
+.carouselArrow.right {
+    right: 30px;
+}
+
+@media (max-width : 768px){
+
+    .carouselSection .contentWrapper{
+        padding: 10px;
+    }
+    .itemCard{
+        flex : 0 0 33%;
+    }
+    .itemCard .lazy-load-image-background.blur.lazy-load-image-loaded{
+
+        height:  200px;
+    }
+
+    .carouselMain{
+        margin-top :30px;
+    }
+    .itemCardTop{
+        min-height: 200px;
+    }
+    .itemTitle {
+        font-size: 14px;
+
+    }
+}

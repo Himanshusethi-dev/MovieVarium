@@ -1,0 +1,29 @@
+
+
+.tabItem {
+    text-transform: capitalize;
+    width: 100px;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+.tabsItems{
+
+    background: white;
+    color: black;
+    border-radius: 20px;
+    padding: 8px;
+    position: relative;
+}
+
+.bgLayer {
+    background-image: linear-gradient(98.37deg, #f89e00 .99%, #da2f68 100%);
+    width: 100px;
+    position: absolute;
+    height: 30px;
+    top: 3px;
+    border-radius: 19px;
+    transition: all 0.8s;
+}

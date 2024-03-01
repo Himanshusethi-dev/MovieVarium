@@ -1,0 +1,60 @@
+.castSection{
+    margin-top: 90px;
+    min-height: 500px;
+}
+.castSection .contentWrapper{
+
+    font-size: unset;
+
+
+}
+.castSection .castMain {
+    text-align: left;
+}
+
+.castRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.profileImg {
+    width: 100%;
+    height: auto;
+}
+.castCard {
+    width: 15%;
+    text-align: center;
+}
+
+.castSection .lazy-load-image-background.blur.lazy-load-image-loaded {
+    height: 100%;
+    border-radius: 5%;
+}
+
+.castHeading {
+    font-size: 30px;
+}
+
+.castName{
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 16px;
+}
+
+.character {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+@media (max-width : 767px){
+
+    .castRow {
+        gap: 23px;
+    }
+
+    .castCard {
+        flex: 0 0 37%;
+    }
+}

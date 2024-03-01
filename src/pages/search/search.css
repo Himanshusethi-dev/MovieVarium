@@ -1,0 +1,14 @@
+.searchPage {
+    min-height: 100vh;
+    padding-top: 110px;
+    background: radial-gradient(circle, rgba(53,8,9,1) 40%, rgba(154,0,3,1) 93%, rgba(116,78,78,1) 100%);
+    color: white;
+}
+
+
+.searchResultsContainer .infinite-scroll-component {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}

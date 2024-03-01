@@ -1,0 +1,26 @@
+.genresContainer {
+    position: absolute;
+    background: transparent;
+    display: flex;
+    gap: 5px;
+    left: 10px;
+    top: 20px;
+    flex-direction: column;
+    text-align: left;
+}
+.genreItem {
+    background: red;
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-size: 14px;
+    /* text-align: center; */
+    width: max-content;
+}
+
+@media (max-width : 767px){
+   .genresContainer {
+
+    display: none;
+   }
+
+}

@@ -1,0 +1,31 @@
+ul.genresDropdown.hidden {
+    display: none;
+}
+ul.genresDropdown {
+    position: absolute;
+    background: white;
+    color: black;
+    height: 207px;
+    overflow: auto;
+    z-index: 1;
+}
+.filterSection {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.genreSelector {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.genreSelector .dropdownArrow{
+    line-height: 0;
+}
+
+.sortby {
+    display: flex;
+    gap: 20px;
+}

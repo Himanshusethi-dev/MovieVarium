@@ -1,0 +1,109 @@
+.bannerBackdrop {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wrapper.homeBannerContainer {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);;
+}
+
+.lazy-load-image-background.blur.lazy-load-image-loaded{
+
+    width: 100%;
+    height: 700px;
+}
+
+
+.lazy-load-image-background.blur.lazy-load-image-loaded > img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: top;
+}
+
+.contentWrapper {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+}
+.homeBannerContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.homeBannerTitle {
+    font-size: 90px;
+}
+.SearchFormBanner {
+    margin-top: 27px;
+    display: flex;
+}
+.SearchFormBanner input {
+    width: calc(100% - 150px);
+    height: 57px;
+    border: none;
+    outline: none;
+    border-radius: 30px 0 0 30px;
+    padding: 20px;
+    font-size: 21px;
+}
+.SearchFormBanner button {
+
+        width: 150px;
+        height: 57px;
+        border: none;
+        background: linear-gradient(98.37deg, #f89e00 .99%, #da2f68 100%);
+        border-radius: 0 30px 30px 0;
+        color: white;
+        font-size: 24px;
+
+}
+
+@media (max-width : 767px){
+
+    .homeBannerTitle{
+
+        font-size: 50px;
+    }
+    .homeBannerSubtitle {
+        font-size: 17px;
+        margin-top: 0;
+        line-height: 24px;
+    }
+    .SearchFormBanner input {
+        width: calc(100% - 100px);
+        height: 32px;
+        border: none;
+        outline: none;
+        border-radius: 20px 0 0 20px;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .SearchFormBanner button {
+        width: 100px;
+        height: 40px;
+        border: none;
+        border-radius: 0 20px 20px 0;
+        color: white;
+        font-size: 16px;
+    }
+    .wrapper.homeBannerContainer {
+
+        height: 500px;
+    }
+    .lazy-load-image-background.blur.lazy-load-image-loaded > img{
+
+        object-fit: unset;
+    }
+    
+}

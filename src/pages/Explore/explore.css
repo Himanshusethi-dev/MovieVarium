@@ -1,0 +1,45 @@
+.mainExporePage{
+    background: radial-gradient(circle, rgba(53,8,9,1) 40%, rgba(154,0,3,1) 93%, rgba(116,78,78,1) 100%);
+    color: white;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    min-height: 100vh;
+}
+
+.exporeSection {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}
+
+.mainExporePage .filterSection {
+    margin-bottom: 28px;
+}
+
+
+.filtersSelected {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 17px;
+}
+
+span.selectedGenre {
+    padding: 10px 37px 10px 10px;
+    background: white;
+    opacity: 0.8;
+    font-size: 13px;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.removeFilterButton{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
